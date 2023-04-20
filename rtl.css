@@ -1,0 +1,219 @@
+body {direction: rtl;unicode-bidi: embed;}
+.mt-slct .selecter-element{left:auto; right: 0;}
+.mt-slct-cn .selecter-item{padding:0 30px 0 0;}
+div.mt-slct-cn .selecter-item.selected:before{left: auto; right: 0;}
+.mt-slct-cn .selecter-selected:after{margin:5px 5px 0 10px}
+/*=====<[8.0] - Header>=====*/
+.hdcn-1>div>div[class*="fa-"]{float: right;}
+.hdcn-1>div>div[class*="fa-"]:before{margin-left: 10px;}
+.menu-top ul,.pst-shr ul,.mycnt ul{text-align: right;}
+.lst-social>li{float: right;}
+.menu .menu-item-has-children>a:after{margin-right: 10px; margin-left: 0;}
+.menu-botn:before{margin-right: 0; margin-left: 10px}
+.menu-botn span:before{margin-right: 0; margin-left: 10px}
+.gm-play{padding-left: 0; padding-right: 5px}
+.news-cn li{ padding: 10px 110px 10px 60px;float: right;}
+.news-cn:before{right: auto; left: 100%;}
+.news-cn>strong{left: auto; right: 0; margin-left: 0; margin-right: -15px;}
+.news-cn>strong:before{margin-left: 10px;}
+.news-cn>strong:after{border-right: none; border-left: 20px solid transparent;right: auto; left: -20px;}
+.news-cn .bx-prev{left: -10px; right: auto;}
+.news-cn .bx-next{left: 10px; right: auto;}
+.sldr-nw{ padding-left: 0;margin: 0;}
+.sldr-nw a{font-weight: 700;}
+.sldr-nw a:hover{text-decoration: underline;}
+/*=====<[9.0] - Body>=====*/
+[class*="gmcn-smal"]{padding-right: 80px;padding-left: 10px;}
+[class*="gmcn-smal"] .gm-imag{left: auto;right: 10px;}
+.hdcn-4 */*,[class*="fa-"],.menu>ul li a,.mt-slct-cn **/{direction:ltr;text-align: right;}
+[class*="gmcn-midl"] .gm-text .gm-vote+.gm-play{padding-right: 0;float: left;text-align: left;}
+[class*="gmcn-midl"] .gm-text .gm-vote+.gm-play:before{margin-right: 0;}
+.lstgms .bx-controls-direction a.bx-next {left: 30px;right: auto;}
+.lstgms .bx-controls-direction a.bx-prev {left: 0;right: auto;}
+.lst-gamgrid>li{float: right;}
+[class*="lst-gams"]>li,.yarpp-related>div{float: right;}
+a.botn-mrgm{left: 0; right:auto; padding:0 25px 0 5px;}
+.botn-mrgm:before{right: 0;}
+[class*="gmcn-larg"] figure.gm-imag{left: auto; right: 0;}
+[class*="gmcn-larg"] figure.gm-imag>a>span strong{margin-left: 0; margin-right:5px;}
+.navtop a:before{margin-right: 0; margin-left: 5px;}
+/*post*/
+[class^="post-"] header p>[class^="fa-"]:before{margin-right: 0; margin-left:5px;}
+/*post-sngl*/
+.post-sngl+footer{padding-right: 0; padding-left: 100px;}
+.post-sngl+footer p .fa-tag:before{margin-right: 0; margin-left: 5px;}
+.post-sngl+footer .pst-shr{left: 0;}
+.pst-shr ul{left: 0;}
+.pst-shr>a:before{margin-right: 0; margin-left: 5px;}
+/*comments*/
+.lst-cmnt li li{padding-left: 0; padding-right: 100px;}
+.cmnt-cn{padding-left: 0; padding-right: 100px;}
+.cmnt-cn>div div time{float: left;}
+.cmnt-cn>div:before{border-left: none; border-right: 15px solid transparent;left: 0 right: -15px;}
+.game_opts>li .wpfp-img{margin-right: 0; margin-left: 2px}
+.game_opts>li.pst-shr .lst-social{left: 0; right: -20px;}
+.lst-scrs>li{float: right;}
+/*404*/
+.srch404{padding-right: 0; padding-left: 40px;}
+a.botn-gtop{right: 0; left: 30px;}
+/*=====<[10.0] - Footer>=====*/
+[class*="gmcn-smal-2"]{padding: 0 70px 0 0;}
+[class*="gmcn-smal-2"] .gm-imag{right: 0;left:auto;}
+.most-popu .bx-prev{left: 0; right: auto;}
+.most-popu .bx-next{left: 20px; right: auto;}
+.ftcn .menu>li li{padding-left: 0; padding-right:20px;}
+.ftcn .menu>li>a{padding-left: 0; padding-right: 20px;}
+.ftcn .menu>li>a:before{left: 0; right: 5px;}
+.ftcn .menu>li>a:hover:before{left: 0; right: 10px;}
+/*=====<[11.0] - CSS - Widgets>=====*/
+[class*="widget"] .titl+ul,[class*="widget"] .titl+ul ul,.item-list{padding-right: 0;}
+/*widget_mabp_user_login*/
+.wpfp-img{margin-right: 0; margin-left: 2px; }
+.widget_mabp_user_login .leabrd ul>li>a:before{margin-right: 0; margin-left: 5px;}
+/*bbp_widget_login*/
+.bbp_widget_login .botn-login,.bbp_widget_login .botn-login+input,.bbp_widget_login .botn-flgn,.bbp_widget_login .botn-flgn+input{float: right;}
+a.botn-flgn, a.botn-login{text-align: right;}
+.bbp_widget_login form+p,.bbp_widget_login .frmspr p{float: right;}
+.bbp_widget_login form+p+p,.bbp_widget_login .frmspr p+p{text-align: left;}
+/*widget_mabp_random_games*/
+.widget_mabp_random_games ul>li,.widget_mabp_most_played ul>li,.widget_mabp_most_rated ul>li{float: right;}
+[class*="gmcn-smal-3"] figure.gm-imag>a>span strong{margin-left: 0; margin-right: 5px;}
+/*widget_myscore_leaderboard*/
+.widget_myscore_leaderboard .playerinfo center div:before{margin-right: 0; margin-left: 5px;}
+/*hall_of_fame*/
+#hall_of_fame ul>li{float: right;}
+#hall_of_fame .plays:before,#hall_of_fame .highscores:before{margin-right: 0; margin-left: 5px;}
+#hall_of_fame .bx-controls-direction a.bx-prev{left: 20px; right: 0;}
+/*gamelist*/
+#gamelist ul{padding-right: 0;}
+#gamelist ul>li{float: right;}
+#gamelist ul>li>a{padding-right: 0; padding-left: 10px;}
+.cate-large [class*="gmcn-larg"]{padding-right: 0 !important;}
+.cate-large [class*="gmcn-larg"] figure.gm-imag img{right: 0;}
+/*widget_ratings-widget*/
+.widget_bp_core_recently_active_widget .item-avatar,.widget_bp_core_whos_online_widget .item-avatar{float: right;}
+.activity-header .activity-date:before,span.activity:before,.widget_display_replies li div:before,.widget_display_topics li div:before,.post-date:before{margin-right: 0; margin-left: 5px;}
+/*widget_recent_entries*/
+.widget_display_stats dt{float: right;}
+.widget_display_stats dd{float: left;margin-left: 0; margin-right: -100px;}
+/*widget_bp_groups_widget*/
+.widget_bp_groups_widget div.item-avatar,.widget_bp_core_members_widget div.item-avatar{float: right;}
+div.item-options a{float: right;}
+/**********************************/
+.widget_display_replies ul>li>a,.widget_display_topics ul>li>a,.widget_categories ul>li>a,.widget_archive ul>li>a,.widget_views ul>li>a,.wpfp_widget_view ul>li>a,.widget_myscore_todays_scores ul>li>a{padding-right: 0; padding-left: 5px;}
+.widget_display_replies ul>li,.widget_display_topics ul>li{padding: 10px 70px 10px 10px;}
+.widget_display_replies img,.widget_display_topics img{right: 0;}
+.wpfp_users_favorites_widget_view li a,.widget_myscore_todays_scores li a,.widget_myarcadecontest_active_contest li a{text-align: right;}
+.widget_yarpp_widget ol{padding-left: 0; padding-right: 30px;}
+.contest-media{float: right;}
+.logout-link:before,.logout:before{margin-right: 0; margin-left: 5px;}
+.bbp-logged-in img.avatar,.widget_bp_core_login_widget .bp-login-widget-user-avatar img.avatar{float: right;margin-right: 0; margin-left: 10px;}
+.widget_bp_core_login_widget .bp-login-widget-user-avatar{float: right;}
+.widget_bp_core_login_widget .bp-login-widget-user-avatar img.avatar{margin-left: 0;}
+.widget_bp_core_login_widget .bp-login-widget-user-links{padding: 10px 0 10px 10px;}
+.widget_bp_core_login_widget .bp-login-widget-register-link{padding-left: 0; padding-right: 10px;}
+.leabrd>li{padding-left: 0; padding-right: 75px;}
+.leabrd figure{left:0;right: 10px;}
+.widget_mabp_user_login h4+div .clrfav{left: 10px; right: 0}
+.lstfavgms>li>a{padding-left: 0; padding-right: 20px;}
+.lstfavgms>li>a.remove-parent{right: 0; left: 10px;text-align: left;}
+.menusr ul{right: 0;}
+.menusr>li{float: right;margin-right: 0; margin-left: 5px;}
+.menusr li li a{padding-left: 0; padding-right: 10px;}
+.wpfp-span ul{padding-right: 0;}
+.wpfp-span li{padding: 5px 0 5px 30px;text-align: right;}
+.wpfp-span li a{text-align: right;}
+/*widget_bp_core_members_widget - widget_bp_groups_widget*/
+.widget_bp_core_members_widget .item-list .item-avatar,.widget_bp_groups_widget .item-list .item-avatar{float: right;margin-right: 0; margin-left: 10px;}
+.widget_bp_core_members_widget ul#members-list li{padding-left: 0; padding-right: 10px;}
+.widget_bp_core_recently_active_widget .item-avatar,.widget_bp_core_whos_online_widget .item-avatar{float: right;}
+.activity-header .activity-date:before,span.activity:before,.widget_display_replies li div:before,.widget_display_topics li div:before,.post-date:before{margin-right:0; margin-left: 5px;}
+.single .ui-dialog div.ui-dialog-titlebar{text-align: right;}
+/*bb*/
+.acomment-reply,.delete-activity-single,.acomment-delete{margin-right: 0; margin-left: 15px;}
+.acomment-reply:before,.delete-activity-single:before,.acomment-delete:before,.unfav:before,.delete-activity:before,.fav:before,.time-since:before,span.activity:before,.ui-icon-closethick:before{margin-right: 0; margin-left: 5px;}
+.yes .picker .picker-handle,.no .picker .picker-handle,.acfb-holder+.picker .picker-handle{margin-left: 0;}
+.activity-comments .ac-reply-avatar{left: 0; right: -60px;}
+/**/
+#message.info {border-width: 1px 5px 1px 1px;}
+.myarcadecontest-template-notice,.warning{border-width:1px 5px 1px 1px}
+/*=====<[12.0] - CSS - Plugins>=====*/
+/*wp-postratings*/
+.gm-vote>div.post-ratings:first-child{margin-right: 0; margin-left: 0}
+.gm-vote>div:first-child{margin-right: 0; margin-left: 5px;}
+.gm-vote>div{float: right;}
+/*wp-pagenavi*/
+.wp-pagenavi a,.wp-pagenavi span{margin:0 0 5px 5px!important;}
+/*Bootstrap*/
+.clos-modl{right: auto; left: 15px}
+a.botn-lgfa{text-align: right;}
+#modl-srch .modal-content input{padding:0 80px 20px 0;}
+#modl-srch p{text-align: left;}
+#modl-srch .modal-content button{right: auto; left: 0;}
+/*=====<[14.0] - Responsive Web Design>=====*/
+@media screen and (max-width: 767px)
+{
+.pstint caption,.pstint table,.pstint thead,.pstint tfoot,.pstint tbody,.pstint th,.pstint td,.pstint tr{text-align:right;}
+.pstint thead tr{left: 0; right: -9999px}
+.pstint td{padding-left:0; padding-right: 50%}
+.pstint td:before{left:0; right: 5px;padding-right:0; padding-left: 10px;text-align:right;}
+.lst-cmnt li li{padding-left: 0; padding-right: 10px;}
+.lst-cmnt li li .cmnt-cn{border-right: 0;}
+.cmnt-cn{padding-right: 0;}
+.cmnt-cn{border-left: none; border-right: 2px solid #16C4BB;}
+}
+@media screen and (min-width: 768px)
+{
+.frmgro .frmctr{margin-left: 0; margin-right: 175px}
+.frmgro label{float:right;}
+a.botn-mrgm{padding:0 20px 0 0}
+a.botn-mrgm:hover{padding:0 25px 0 5px;}
+}
+@media screen and (min-width: 666px)
+{
+[class*="gmcn-larg"]{padding-left: 0; padding-right: 175px;text-align: right;}
+.post-game>header{padding-left: 0; padding-right: 90px;text-align: right;}
+.post-game>header figure{right: 0; left: auto;}
+.post-game>header .gm-vote{float: left;}
+.post-game>.txcn{padding-left: 0; padding-right: 220px;text-align: right;}
+.post-game>.txcn .post-bnr{left: auto; right: 0;}
+}
+.post-list .txcn>figure{float: right;margin-right: 0; margin-left: 15px;}
+.contentbnr300{float:left;margin: 0 10px 10px 0;}
+}
+@media screen and (min-width: 992px)
+{
+/*hd*/
+ul.menu-top{float: left;}
+.menu-top>li>a:before,.menu-top>li>span:before{margin-left: 10px;}
+.hdcn-2 .logo{float: right;}
+.hdcn-2 .logo+div{float: left;}
+.lost_pass{float: left;}
+nav.menu .menu-item-has-children ul:before{left: 0; right:20px;}
+nav.menu .menu-item-has-children ul ul{right: 100%; left: 0;}
+nav.menu .menu-item-has-children ul ul:before{border-right: none; border-left: 5px solid #fff;left: 0; right: -10px;}
+.menu>ul li a{text-align: right;}
+.menu>ul>li{float: right;}
+.menu>ul+a{float: left;}
+a.rndgame{text-align: right;}
+.lstgms{float: right;}
+.lst-gamgrid{float: right;}
+.titl>div{float: right;}
+.titl .mt-slct-cn{float: left;}
+.titl .mt-slct-cn+.mt-slct-cn{border-right: none; border-left: 1px solid #F1F1F1;padding-right: 0; padding-left: 10px;margin-right: 0; margin-left: 20px;}
+.menu-top ul{right: 50%;margin-left: 0; margin-right: -75px;}
+.menu-top ul li a{text-align: right;}
+.menu-top ul li a:before{margin-left: 10px;}
+[class*="gmcn-larg"]{padding-left: 0; padding-right: 145px;}
+.wp-pagenavi{text-align: right;}
+#cntpromotedgames>span#loadingpromotedgames{float: left;}
+#group-dir-search{float: left;}
+.activity-inner img{float: left;margin-left: 0; margin-right: 15px;}
+}
+@media screen and (min-width: 1200px)
+{
+[class*="gmcn-larg"]{padding-left: 0; padding-right: 175px;}
+}
+/*=====<[16.0] - Other Plugins>=====*/
+#commentform .gglcptch {padding-left: 0; padding-right: 10px}
+#commentform .g-recaptcha {padding-left: 0; padding-right:  10px;}

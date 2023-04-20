@@ -1,0 +1,36 @@
+= v2.0.0 - 2021-02-05 - Based on MyArcadeTheme Pro v6.2.1 =
+  * New - Automatic game resize to max available width
+  * New - Option to enable/disable the admin bar
+  * New - PageSpeed Insights optimization
+  * New - Option to disable meta data on pre-game and play game pages
+  * New - Option to display related games on the slider belt on the single games page
+  * New - Games widget to show random or related games
+  * New - Option to change the game buttons location (above or below the game)
+  * Tweak - CSS optimization to get 100% SEO score at Google PageSpeed Insights (Lighthouse)
+  * Tweak - Updated to new Redux functions
+  * Tweak - bxSlider updated
+  * Tweak - Removed default footer placeholder widgets
+  * Tweak - Removed Links/Problem Reporter plugin recommendation because is has been abandoned
+  * Tweak - Removed outdated Yoast SEO compatibility code
+  * Tweak - Display only one category as thumbnail hover instead of multiple categories
+  * Tweak - Updated language file and renamed translations
+  * Tweak - Display images on game descriptions on the game-play page
+  * Fix - Add/Remove favorites not working
+  * Fix - Game dimensions division by zero
+  * Fix - bxSlider links not clickable
+  * Fix - Page scrolls on clicking share button
+  * Fix - Share buttons overlaid by the game
+  * Fix - schema.org - Display ratings snippet only if ratings are available
+  * Fix - Removed Google+ code from single blog page
+  * Fix - Fixed name of a suggested plugin
+  * Fix - schema.org - RatingCount will only be displayed if there are ratings available (Fixes issues with Google Search Console)
+  * Fix - schema.org - WorstRating changed to 0 (Fixes issues with Google Search Console)
+  * Fix - Don't display a fallback menu if no top navigation menu is defined
+  * Fix - Form label missing for promoted games sort selection
+  * Fix - Game not centered with disabled sidebars
+  * Fix - Turn lights off button not working properly
+  * Fix - Game description and banner alignment on the pre-game page
+  * Fix - Exclude blog posts for the slider and promoted games box
+
+= v1.0.0 - 2020-02-12 - Based on MyArcadeTheme Pro v5.6.1 =
+  * Initial release
